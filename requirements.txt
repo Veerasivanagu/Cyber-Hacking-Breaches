@@ -1,0 +1,11 @@
+Cyber Hacking Breaches libraries:
+
+pip install scikit-learn==1.2.2
+pip install flask==2.3.2
+pip install matplotlib==3.7.1
+pip install pandas==2.0.0
+pip install numpy==1.23.5
+pip install pymsgbox==1.0.9
+*******************************
+Python 3.10.9
+
