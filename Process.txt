@@ -1,0 +1,356 @@
+========================================================
+CYBER HACKING BREACHES 
+AI-POWERED CYBER HACKING BREACH DETECTION SYSTEM
+========================================================
+
+Project Name:
+CYBER HACKING BREACHES
+
+Project Type:
+Machine Learning based Web Application for Cyber Breach Detection
+
+Developed Using:
+Flask, Python, SQLite, SQLAlchemy, HTML, CSS, JavaScript,
+Scikit-learn, Pandas, NumPy, Joblib, Matplotlib
+
+========================================================
+1. PROJECT OVERVIEW
+========================================================
+
+CyberHackingBreaches is an AI-based cyber hacking breach detection system developed
+to identify security threats and unauthorized access in real-time. The system allows
+users and administrators to upload datasets, train machine learning
+models, and detect cyber-attacks based on network and system data.
+
+The system provides the following modules:
+
+1. User Login System
+2. Dataset Upload
+3. Model Training
+4. Manual Threat Prediction
+5. Breach Detection Result
+6. Analytics and Charts
+7. Performance Analysis
+
+========================================================
+2. MAIN OBJECTIVE
+========================================================
+
+The main objective of Cyberhackingbreaches is to detect cyber hacking
+breaches using machine learning techniques and provide accurate
+results to enhance system security.
+
+========================================================
+3. FEATURES OF THE PROJECT
+========================================================
+
+- User Login and Authentication
+- Dataset Upload (CSV)
+- Data Processing
+- Model Training
+- Threat Prediction
+- Manual Input for Attack Detection
+- Real-time Result Display
+- Analytics Dashboard
+- Charts Visualization
+- Performance Metrics
+
+========================================================
+4. TECHNOLOGIES USED
+========================================================
+
+Frontend:
+- HTML
+- CSS
+- JavaScript
+
+Backend:
+- Python
+- Flask
+
+Database:
+- SQLite
+- SQLAlchemy ORM
+
+Machine Learning:
+- Scikit-learn
+- Pandas
+- NumPy
+- Joblib
+- Matplotlib
+
+========================================================
+5. PROJECT FOLDER PURPOSE
+========================================================
+
+1. app.py
+   Main application file containing routes, login system,
+   dataset upload, model training, prediction, and dashboard.
+
+2. templates/
+   Contains all HTML pages used in the project.
+
+3. static/
+   Contains CSS, JS, images, and UI components.
+
+4. uploads/
+   Stores uploaded cyber-attack datasets.
+
+5. models/
+   Stores trained machine learning models.
+
+6. database file
+   Stores user login details and records.
+
+========================================================
+6. SOFTWARE REQUIREMENTS
+========================================================
+
+- Python 3.x
+- Flask
+- Flask-SQLAlchemy
+- Pandas
+- NumPy
+- Scikit-learn
+- Joblib
+- Matplotlib
+
+========================================================
+7. HOW TO RUN THE PROJECT
+========================================================
+
+STEP 1:
+Open the project folder.
+
+STEP 2:
+Ensure Python is installed.
+
+STEP 3:
+Install required libraries:
+
+pip install flask flask-sqlalchemy pandas numpy scikit-learn joblib matplotlib
+
+STEP 4:
+Run the application:
+
+python app.py
+
+STEP 5:
+Open browser and go to:
+
+http://127.0.0.1:5000/
+
+========================================================
+8. HOW TO USE THE PROJECT
+========================================================
+
+STEP 1: Open Home Page
+- Launch the project in browser.
+
+STEP 2: Login
+- Enter username and password.
+
+STEP 3: Upload Dataset
+- Upload CSV file containing cyber-attack data.
+
+STEP 4: Train Model
+- Click "Train Model" button.
+- System trains model using dataset.
+
+STEP 5: Manual Prediction
+- Enter system/network details manually.
+
+STEP 6: Submit Input
+- Click predict button.
+
+STEP 7: View Result
+- System displays whether activity is:
+  Attack or Normal.
+
+STEP 8: View Analytics
+- Check charts and performance results.
+
+STEP 9: Logout
+- Exit the system safely.
+
+========================================================
+9. MODULE-WISE WORKING
+========================================================
+
+1. DATASET UPLOAD MODULE
+Purpose:
+Upload cyber-attack dataset.
+
+Process:
+- Upload CSV file
+- Validate data
+- Store dataset
+
+--------------------------------------------------------
+
+2. MODEL TRAINING MODULE
+Purpose:
+Train machine learning model.
+
+Process:
+- Select dataset
+- Preprocess data
+- Train model
+- Save model
+
+--------------------------------------------------------
+
+3. MANUAL PREDICTION MODULE
+Purpose:
+Predict cyber threats using user input.
+
+Input Examples:
+- Network Traffic
+- IP Address
+- Access Type
+- Device Information
+- Login Attempts
+- Data Transfer Rate
+
+Output:
+- Attack / Normal
+
+--------------------------------------------------------
+
+4. ANALYTICS MODULE
+Purpose:
+Display charts and model performance.
+
+Output:
+- Accuracy
+- Confusion Matrix
+- Graphs
+
+========================================================
+10. MACHINE LEARNING WORKFLOW
+========================================================
+
+1. Dataset collection
+2. Dataset upload
+3. Data preprocessing
+4. Feature selection
+5. Model training
+6. Model evaluation
+7. Model saving
+8. Prediction
+
+========================================================
+11. GENERAL WORKING FLOW
+========================================================
+
+Start
+ ->
+Login
+ ->
+Upload Dataset
+ ->
+Train Model
+ ->
+Enter Input
+ ->
+Detect Threat
+ ->
+Display Result
+ ->
+View Analytics
+ ->
+Logout
+ ->
+End
+
+========================================================
+12. DATABASE USAGE
+========================================================
+
+Stores:
+- User login details
+- Dataset records
+- Detection results
+
+========================================================
+13. HOW TO TRAIN MODEL
+========================================================
+
+1. Login
+2. Upload dataset
+3. Click "Train Model"
+4. Wait for training completion
+5. Model is saved
+
+========================================================
+14. HOW TO PREDICT
+========================================================
+
+1. Enter system/network details
+2. Submit input
+3. Model processes data
+4. Output is displayed
+
+========================================================
+15. PERFORMANCE METRICS
+========================================================
+
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Confusion Matrix
+
+========================================================
+16. ADVANTAGES
+========================================================
+
+- Fast threat detection
+- Easy to use
+- Real-time monitoring
+- Improves cybersecurity
+- Reduces hacking risks
+
+========================================================
+17. TROUBLESHOOTING
+========================================================
+
+- Check Python installation
+- Verify dataset format
+- Ensure model is trained
+- Check errors in terminal
+
+========================================================
+18. SAMPLE COMMANDS
+========================================================
+
+Install:
+pip install flask pandas numpy scikit-learn joblib matplotlib
+
+Run:
+python app.py
+
+Open:
+http://127.0.0.1:5000/
+
+========================================================
+19. USERS
+========================================================
+
+- Organizations
+- Cybersecurity analysts
+- Students
+- Developers
+
+========================================================
+20. CONCLUSION
+========================================================
+
+CyberSecureX is a powerful cyber hacking breach detection system that uses machine
+learning to identify security threats and unauthorized access.
+It helps improve system security and provides real-time monitoring,
+making it useful for cybersecurity applications and academic projects.
+
+========================================================
+END OF README
+========================================================
